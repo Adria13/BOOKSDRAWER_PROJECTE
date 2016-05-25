@@ -1,0 +1,31 @@
+
+
+.parr,
+.parrt,
+#copyright{
+	margin-top: 10px;
+}
+
+.parrt,
+#content{
+	font-weight: bold; 
+}
+#content{
+	margin: auto;
+	margin-top: 120px;
+	height: 100px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #12312A;
+	font-size: 38px;
+
+}
+
+#content1{
+	height: 380px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #12312A;
+}

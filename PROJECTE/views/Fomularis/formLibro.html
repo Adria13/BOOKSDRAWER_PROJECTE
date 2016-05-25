@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styleLibros.css">
+	<title>Subir libro</title>
+</head>
+<body>
+	<div id="registro">
+		<form action="../../controller/uploadlibro.php" method="post" enctype= "multipart/form-data">
+		<label for="titulo">Título: </label><br>
+		<input type="text" name="titulo" required/><br>
+		<label for="autor">Autor: </label><br>
+		<input type="text" name="autor" required/><br>
+		<label for="fecha">Fecha: </label>
+		<input type="date" name="fecha"><br>
+		<label for="generos">Género: </label>
+		<select name="generos" required>
+			<option value="Aventura">Aventura</option>
+			<option value="Bélicas">Bélicas</option>
+			<option value="Biografía">Biografia</option>
+			<option value="Ciencia Ficción">Ciencia Ficción</option>	
+			<option value="Clásicos de la literatura">Clásicos de la literatura</option>
+			<option value="Drama">Drama</option>
+			<option value="Ensayo">Ensayo</option>
+			<option value="Erótica">Erótica</option>
+			<option value="Espionaje">Espionaje</option>
+			<option value="Fantasía">Fantasía</option>
+			<option value="Histórica">Histórica</option>
+			<option value="Humor">Humor</option>
+			<option value="Infantil">Infantil</option>
+			<option value="Juvenil">Juvenil</option>
+			<option value="Literatura contemporánea">Literatura contemporánea</option>
+			<option value="Narrativa">Narrativa</option>
+			<option value="Novela negra">Novela negra</option>
+			<option value="Misterio">Misterio</option>
+			<option value="Poesía">Poesía</option>
+			<option value="Policíacas">Policíacas</option>
+			<option value="Romántica">Romántica</option>
+			<option value="Suspense">Suspense</option>
+			<option value="Terror">Terror</option>
+		</select><br>
+		<label for="desc">Descripción: </label>
+		<textarea name="desc" rows="6" required></textarea><br>
+		<label for="portada">Portada: </label>
+		<input type="file" name="portada"><br>
+		<input type="submit" value="Subir libro">
+		</form>
+	</div>
+	
+</body>
+</html>

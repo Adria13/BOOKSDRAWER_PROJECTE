@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Barra</title>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="js/buscar.js"></script>
+</head>
+<body>
+	<header>
+		<img id="logo" src="img/logo_home.png" alt="LOGO">
+		<nav>
+			
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Librería</a></li>
+				<li><a href="#">Perfil</a></li>
+				<li><a href="#">Conectarse</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#" class="busc">Buscar<span class="icon-search"></span></a></li>
+			</ul>
+		</nav>
+	</header>
+		<nav id="busquedas">
+			<p>Buscar por:</p>
+			<ul>
+				<li class="openForm"><a href="#">Titulo<span class="icon-chevron-down"></span></a>
+				<ul>
+					<li class="formBuscar">
+						<form action="formBuscar.php">
+						<input type="text" name="titulo"/>
+						<input type="submit" value="Buscar"/>
+						</form>
+					</li>
+				</ul>
+				</li>
+				<li class="openForm"><a href="#">Autor<span class="icon-chevron-down"></span></a>
+				<ul>
+					<li class="formBuscar">
+						<form action="formBuscar.php">
+						<input type="text" name="autor"/>
+						<input type="submit" value="Buscar"/>
+						</form>
+					</li>
+				</ul>
+				</li>
+				<li class="openForm"><a href="#">Genero<span class="icon-chevron-down"></span></a>
+				<ul>
+					<li class="formBuscar">
+						<form action="formBuscar.php">
+							<select name="genero" required>
+								<option value="Aventura">Aventura</option>
+								<option value="Bélicas">Bélicas</option>
+								<option value="Biografía">Biografia</option>
+								<option value="Ciencia Ficción">Ciencia Ficción</option>	
+								<option value="Clásicos de la literatura">Clásicos de la literatura</option>
+								<option value="Drama">Drama</option>
+								<option value="Ensayo">Ensayo</option>
+								<option value="Erótica">Erótica</option>
+								<option value="Espionaje">Espionaje</option>
+								<option value="Fantasía">Fantasía</option>
+								<option value="Ficción literaria">Ficción literaria</option>
+								<option value="Histórica">Histórica</option>
+								<option value="Humor">Humor</option>
+								<option value="Infantil">Infantil</option>
+								<option value="Juvenil">Juvenil</option>
+								<option value="Literatura contemporánea">Literatura contemporánea</option>
+								<option value="Narrativa">Narrativa</option>
+								<option value="Novela negra">Novela negra</option>
+								<option value="Misterio">Misterio</option>
+								<option value="Poesía">Poesía</option>
+								<option value="Policíacas">Policíacas</option>
+								<option value="Romántica">Romántica</option>
+								<option value="Suspense">Suspense</option>
+								<option value="Terror">Terror</option>
+							</select>
+							<input type="submit" value="Buscar"/>
+						</form>
+					</li>
+				</ul>
+				</li>
+			</ul>
+		</nav>
+		<div id="content">
+			CONTACTO
+		</div>
+		<div id="content1">
+			<p class="parrt">Correo electrónico:</p>
+			<p class="parr">contact.booksdrawer@gmail.com</p>
+			<p class="parrt">Atención al Cliente:</p>
+			<p class="parr">902 198 397</p>
+			<p class="parrt">Facebook:</p>
+			<p class="parr"><a href="https://facebook.com/booksdrawer">booksdrawer</a></p>
+			<p class="parrt">Twitter:</p>
+			<p class="parr"><a href="https://twitter.com/books_drawer">@books_drawer</a></p>
+		</div>
+		<footer>
+				<p id="copyright">@ Copyright BooksDrawer 2016</p>
+			</div>
+
+		</footer>
+</body>
+</html>
